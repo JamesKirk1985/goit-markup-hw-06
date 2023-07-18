@@ -732,7 +732,7 @@ img {
 /* ====================================================== */
 /* mobile styles 428 - 767 */
 /* ====================================================== */
-@media (min-width: 428px) {
+@media screen and (min-width: 428px) {
     .container {
         max-width: 428px;
         padding: 0 16px;
@@ -753,7 +753,7 @@ img {
 /* tablet styles 768 - 1128 */
 /* =========================================================== */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .container {
             max-width: 768px;
             padding: 0 16px;            
@@ -891,7 +891,7 @@ img {
 /* desktop styles 1158 -  8*/
 /* =================================================== */
 
-@media (min-width: 1158px){
+@media screen and(min-width: 1158px){
     .container {
             max-width: 1158px;
             width: 1158px;
@@ -940,7 +940,7 @@ img {
     .about-webstudio {
         padding: 120px 0 0 0;
     }
-    
+
     .about-list {
         display: flex;        
         column-gap: 24px;        
