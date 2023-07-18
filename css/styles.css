@@ -940,6 +940,7 @@ img {
     .about-webstudio {
         padding: 120px 0 0 0;
     }
+    
     .about-list {
         display: flex;        
         column-gap: 24px;        
