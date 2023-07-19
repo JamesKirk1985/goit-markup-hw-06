@@ -792,6 +792,9 @@ img {
     .hero-title {            
             max-width: 496px;
             }
+    .hero-title {
+            font-size: 56px;
+            }
     .clients-list {
             display: flex;
             flex-wrap: wrap;
@@ -891,7 +894,7 @@ img {
 /* desktop styles 1158 -  8*/
 /* =================================================== */
 
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1158px) {
     .container {
             max-width: 1158px;
             width: 1158px;
@@ -914,10 +917,16 @@ img {
         margin-right: auto;
         }
     .contact-list {
-    display: flex;
-    gap: 40px;
+        display: flex;
+        gap: 40px;
+        }
+    .address-link {
+            font-size: 12px;
+            line-height: 1.5;    
+            letter-spacing: 0.04em;
         }
     .main-hero {
+            padding: 188px 0;
             max-width: 1440px;
             background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 0.70),
@@ -934,9 +943,7 @@ img {
                     url(../images/desktop-BG-2x.jpg);
             }
         }
-    .hero-title {
-        font-size: 56px;
-    }
+    
     .about-webstudio {
         padding: 120px 0 0 0;
     }
@@ -1027,7 +1034,7 @@ img {
     .modal {
         padding: 72px 24px 24px 24px;
         }
-    }
+ }
 
 /* ===================================================== */
 /* Rules without @media */
